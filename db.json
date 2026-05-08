@@ -1,0 +1,385 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Industrial Drill X1200",
+      "description": "Cordless industrial drill with two batteries.",
+      "price": 149.99,
+      "sku": "DRL-X1200",
+      "categoryId": 2,
+      "supplierId": 1,
+      "receivedAt": "2026-04-20",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/drill/200/200",
+        "data:image/jpeg;base64,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"
+      ],
+      "barcode": "778253188077"
+    },
+    {
+      "id": 2,
+      "name": "Safety Helmet Pro",
+      "description": "Lightweight helmet with reinforced shell.",
+      "price": 59.5,
+      "sku": "HLM-PRO",
+      "barcode": "482000000002",
+      "categoryId": 2,
+      "supplierId": 2,
+      "receivedAt": "2026-04-15",
+      "rating": 5,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/helmet/200/200"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Circuit Tester VT9",
+      "description": "Voltage tester with LED indicators.",
+      "price": 24.9,
+      "sku": "EL-VT9",
+      "barcode": "482000000003",
+      "categoryId": 3,
+      "supplierId": 1,
+      "receivedAt": "2026-04-01",
+      "rating": 3,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/tester/200/200"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wrench Set 12pc",
+      "description": "Combination wrenches in roll pouch.",
+      "price": 89,
+      "sku": "TL-WR12",
+      "barcode": "482000000004",
+      "categoryId": 1,
+      "supplierId": 2,
+      "receivedAt": "2026-03-28",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/wrench/200/200"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cut-Resistant Gloves",
+      "description": "Level 5 cut protection gloves.",
+      "price": 18.75,
+      "sku": "SF-GLV5",
+      "barcode": "482000000005",
+      "categoryId": 2,
+      "supplierId": 2,
+      "receivedAt": "2026-03-10",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/gloves/200/200"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "LED Work Light 30W",
+      "description": "Portable tripod work light.",
+      "price": 112,
+      "sku": "EL-L30",
+      "barcode": "482000000006",
+      "categoryId": 3,
+      "supplierId": 1,
+      "receivedAt": "2026-04-18",
+      "rating": 5,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/led/200/200"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Tape Measure 8m",
+      "description": "Magnetic hook tape measure.",
+      "price": 14.25,
+      "sku": "TL-TM8",
+      "barcode": "482000000007",
+      "categoryId": 1,
+      "supplierId": 1,
+      "receivedAt": "2026-02-22",
+      "rating": 2,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/tape/200/200"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ear Defenders NRR32",
+      "description": "Foldable hearing protection.",
+      "price": 41.5,
+      "sku": "SF-ED32",
+      "barcode": "482000000008",
+      "categoryId": 2,
+      "supplierId": 2,
+      "receivedAt": "2026-04-05",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/ears/200/200"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cable Stripper Pro",
+      "description": "Self-adjusting wire stripper.",
+      "price": 33,
+      "sku": "EL-CS1",
+      "barcode": "482000000009",
+      "categoryId": 3,
+      "supplierId": 1,
+      "receivedAt": "2026-01-30",
+      "rating": 3,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/strip/200/200"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Hammer 500g Fiberglass",
+      "description": "Balanced claw hammer.",
+      "price": 22.4,
+      "sku": "TL-HM5",
+      "barcode": "482000000010",
+      "categoryId": 1,
+      "supplierId": 2,
+      "receivedAt": "2026-04-12",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/hammer/200/200"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Respirator Half-Mask",
+      "description": "Reusable half-face respirator.",
+      "price": 67.9,
+      "sku": "SF-RSP1",
+      "barcode": "482000000011",
+      "categoryId": 2,
+      "supplierId": 1,
+      "receivedAt": "2026-03-05",
+      "rating": 5,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/mask/200/200"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Multimeter DM200",
+      "description": "Auto-ranging digital multimeter.",
+      "price": 54.99,
+      "sku": "EL-MM200",
+      "barcode": "482000000012",
+      "categoryId": 3,
+      "supplierId": 2,
+      "receivedAt": "2026-04-22",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/multi/200/200"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Socket Set Metric",
+      "description": "1/2in drive metric sockets.",
+      "price": 95,
+      "sku": "TL-SKM",
+      "barcode": "482000000013",
+      "categoryId": 1,
+      "supplierId": 1,
+      "receivedAt": "2026-03-18",
+      "rating": 5,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/socket/200/200"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Safety Vest Hi-Vis",
+      "description": "Class 2 high visibility vest.",
+      "price": 12.99,
+      "sku": "SF-VST2",
+      "barcode": "482000000014",
+      "categoryId": 2,
+      "supplierId": 2,
+      "receivedAt": "2026-02-01",
+      "rating": 3,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/vest/200/200"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Extension Cord 25m",
+      "description": "Outdoor-rated extension reel.",
+      "price": 78,
+      "sku": "EL-EX25",
+      "barcode": "482000000015",
+      "categoryId": 3,
+      "supplierId": 1,
+      "receivedAt": "2026-04-08",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/cord/200/200"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Pliers Set 3pc",
+      "description": "Long nose, diagonal, slip joint.",
+      "price": 36.5,
+      "sku": "TL-PL3",
+      "barcode": "482000000016",
+      "categoryId": 1,
+      "supplierId": 2,
+      "receivedAt": "2026-01-12",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/pliers/200/200"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Safety Boots S3",
+      "description": "Steel toe waterproof boots.",
+      "price": 128,
+      "sku": "SF-BTS3",
+      "barcode": "482000000017",
+      "categoryId": 2,
+      "supplierId": 1,
+      "receivedAt": "2026-04-19",
+      "rating": 5,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/boots/200/200"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Crimping Tool Set",
+      "description": "Ratcheting crimp tool with dies.",
+      "price": 48.25,
+      "sku": "EL-CRP",
+      "barcode": "482000000018",
+      "categoryId": 3,
+      "supplierId": 2,
+      "receivedAt": "2026-03-22",
+      "rating": 3,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/crimp/200/200"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Spirit Level 120cm",
+      "description": "Heavy-duty aluminum level.",
+      "price": 31,
+      "sku": "TL-LVL12",
+      "barcode": "482000000019",
+      "categoryId": 1,
+      "supplierId": 1,
+      "receivedAt": "2026-02-18",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/level/200/200"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "First Aid Wall Kit",
+      "description": "OSHA-style wall-mounted kit.",
+      "price": 55,
+      "sku": "SF-FAK1",
+      "barcode": "482000000020",
+      "categoryId": 2,
+      "supplierId": 2,
+      "receivedAt": "2026-04-03",
+      "rating": 4,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/fak/200/200"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Power Strip 8 Outlet",
+      "description": "Surge protector 900J.",
+      "price": 29.99,
+      "sku": "EL-PS8",
+      "barcode": "482000000021",
+      "categoryId": 3,
+      "supplierId": 1,
+      "receivedAt": "2026-04-25",
+      "rating": 2,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/strip/200/200"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Utility Knife Foldable",
+      "description": "Quick-change blade utility knife.",
+      "price": 9.5,
+      "sku": "TL-KNF1",
+      "categoryId": 1,
+      "supplierId": 2,
+      "receivedAt": "2026-01-05",
+      "rating": 2,
+      "active": true,
+      "images": [
+        "https://picsum.photos/seed/knife/200/200"
+      ],
+      "barcode": "778235756821"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tools"
+    },
+    {
+      "id": 2,
+      "name": "Safety"
+    },
+    {
+      "id": 3,
+      "name": "Electrical"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "TechSource LTD",
+      "email": "sales@techsource.test",
+      "phone": "+380441112233"
+    },
+    {
+      "id": 2,
+      "name": "SafeGear Group",
+      "email": "contact@safegroup.test",
+      "phone": "+380442224466"
+    }
+  ]
+}
